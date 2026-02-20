@@ -1,5 +1,5 @@
 # Alternative-Payment-Methods-APM-Performance-Analytics
-![](https://github.com/Imisau/Alternative-Payment-Methods-APM-Performance-Analytics/blob/main/Thumbnail.png)
+![](https://github.com/Imisau/Alternative-Payment-Methods-APM-Performance-Analytics/blob/main/AMP_Thumbnail.png)
 ### Emerging Markets | Power BI & Excel | Strategy & Execution
 
 # 🚀 Project Context
@@ -51,11 +51,12 @@ ________________________________________
 # 💳 Performance by Payment Method
 |Payment Method	      |Transactions	    |Auth Rate	    |Completion Rate	    |Avg Value ($)
 :--------------------:|:---------------:|:-------------:|:-------------------:|:--------------
-Bank Transfer	          2,056	            76.6%	          72.4%	                152.89
-Card	                  2,038	            78.0%	          71.8%	                153.78
-Mobile Wallet	          1,998	            79.7%	          71.0%	                149.26
-QR Payments	2,000	78.2%	71.4%	152.30
-USSD	1,908	79.4%	70.6%	152.16
+Bank Transfer	        |  2,056	        |    76.6%	    |      72.4%	        |        152.89
+Card	                |  2,038	        |    78.0%	    |      71.8%	        |        153.78
+Mobile Wallet	        |  1,998	        |    79.7%	    |      71.0%	        |        149.26
+QR Payments	          |  2,000	        |    78.2%	    |      71.4%	        |        152.30
+USSD	                |  1,908	        |    79.4%	    |      70.6%	        |        152.16
+
 APM Insight:
 •	USSD & Mobile Wallets show strong authorization → adoption signal
 •	Completion drop-off is consistent across APMs → systemic UX or timeout issue, not method-specific
