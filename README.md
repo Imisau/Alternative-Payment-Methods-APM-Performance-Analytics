@@ -125,9 +125,13 @@ ________________________________________
 
 ## What the analytics reveal:
 -	Failures cluster around:
- - o	Technical errors
- - o	Timeouts
- - o	Incomplete confirmations
+
+ 	 o	Technical errors
+
+ 	 o	Timeouts
+
+ 	 o	Incomplete confirmations
+
 -	No single APM dominates failure volume
 
 ## Interpretation for Execution & Partnerships:
