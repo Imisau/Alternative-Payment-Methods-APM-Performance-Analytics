@@ -152,6 +152,7 @@ Failure patterns indicate platform-level execution risk. Coordinated fixes with 
 ________________________________________
 # 🔹 Page 5: Time & Trend Performance
 ![](https://github.com/Imisau/Alternative-Payment-Methods-APM-Performance-Analytics/blob/main/AMP_EMP5.png)
+
 **Insight:** Conversion Leakage Is Persistent, Not Seasonal
 
 ## What the analytics reveal:
@@ -181,4 +182,4 @@ ________________________________________
 -	Completion gaps indicate fixable infrastructure challenges
 ________________________________________
 
-Interactwith dataset [Here] 
+Interactwith dataset [Here](https://github.com/Imisau/Alternative-Payment-Methods-APM-Performance-Analytics/blob/main/APM_Emerging_Market_Performance_Dataset.xlsx) 
