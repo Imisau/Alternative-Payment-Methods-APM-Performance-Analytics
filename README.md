@@ -16,7 +16,7 @@ ________________________________________
 -	Analytics Techniques: Funnel analysis, failure diagnostics, trend analysis
 
 ________________________________________
-# 🎯 Business Objectives (Aligned to dLocal Role)
+# 🎯 Business Objectives 
 -	Identify high-performing and underperforming APMs
 -	Diagnose conversion leakage across authorization → completion
 -	Support APM launch, optimization, and prioritization decisions
@@ -24,7 +24,7 @@ ________________________________________
 
 
 ________________________________________
-# 📂 Data Overview (Excel Analysis)
+# 📂 Data Overview 
 Dataset Size: 10,000 transactions
 Markets Covered: Emerging markets (Africa, LATAM, Asia)
 ### Payment Methods:
@@ -44,7 +44,7 @@ Markets Covered: Emerging markets (Africa, LATAM, Asia)
 •	Transaction Date
 ________________________________________
 
-# 🔢 Overall Performance (Excel-Derived)
+# 🔢 Overall Performance
 
 |Metric                         |Value
 :------------------------------:|:---------------------
