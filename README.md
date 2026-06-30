@@ -25,12 +25,17 @@ Merchants in emerging markets rely on Alternative Payment Methods (APMs) to impr
 FROM apm_transactions;
 
 #### - GROUP BY
-SELECT
+ SELECT
     Payment_Method,
+    
     COUNT(*) AS Transactions,
+    
     AVG(Authorized) * 100 AS Authorization_Rate,
+    
     AVG(Completed) * 100 AS Completion_Rate
+
 FROM apm_transactions
+
 GROUP BY Payment_Method;
 
 SELECT
