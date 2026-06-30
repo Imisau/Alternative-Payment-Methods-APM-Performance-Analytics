@@ -11,7 +11,123 @@ I evaluated **APM performance, adoption, conversion efficiency, and failure patt
 
 ________________________________________
 # 🛠 Tools & Methods
--	Excel: Descriptive statistics, validation, aggregation
+-	Python: Descriptive statistics, validation, aggregation
+#### - SQL:
+#### - SELECT
+    Country,
+    Payment_Method,
+    Transaction_Amount_USD,
+    Authorized,
+    Completed
+FROM apm_transactions;
+
+#### - GROUP BY
+SELECT
+    Payment_Method,
+    COUNT(*) AS Transactions,
+    AVG(Authorized) * 100 AS Authorization_Rate,
+    AVG(Completed) * 100 AS Completion_Rate
+FROM apm_transactions
+GROUP BY Payment_Method;
+
+SELECT
+    Country,
+    COUNT(*) Transactions,
+    SUM(Transaction_Amount_USD) Revenue
+FROM apm_transactions
+GROUP BY Country;
+
+#### 1 CASE
+CASE
+SELECT
+
+Country,
+CASE
+    WHEN Transaction_Amount_USD >=150
+        THEN 'High Value'
+
+    ELSE 'Standard'
+END AS Transaction_Category
+
+FROM apm_transactions;
+
+#### - 2 CASE
+CASE
+
+WHEN Authorized=1
+AND Completed=1
+
+THEN 'Successful'
+
+WHEN Authorized=1
+AND Completed=0
+
+THEN 'Post-Authorization Failure'
+
+ELSE 'Authorization Failure'
+
+END
+
+#### - CTEs
+WITH Funnel AS
+
+(
+
+SELECT
+
+COUNT(*) Attempts,
+
+SUM(Authorized) Authorized,
+
+SUM(Completed) Completed
+
+FROM apm_transactions
+
+)
+
+SELECT *
+
+FROM Funnel;
+
+#### - Window Functions
+SELECT
+
+Country,
+
+SUM(Transaction_Amount_USD) Revenue,
+
+RANK() OVER
+
+(
+
+ORDER BY SUM(Transaction_Amount_USD) DESC
+
+) Revenue_Rank
+
+FROM apm_transactions
+
+GROUP BY Country;
+
+ROW_NUMBER()
+
+OVER(PARTITION BY Country)
+
+#### Views
+CREATE VIEW vw_APM_KPIs AS
+
+SELECT
+
+Payment_Method,
+
+COUNT(*) Transactions,
+
+AVG(Authorized)*100 AuthorizationRate,
+
+AVG(Completed)*100 CompletionRate
+
+FROM apm_transactions
+
+GROUP BY Payment_Method;
 -	Power BI: 5-page executive analytics dashboard
 -	Analytics Techniques: Funnel analysis, failure diagnostics, trend analysis
 
