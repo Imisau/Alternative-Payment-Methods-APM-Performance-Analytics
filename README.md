@@ -1,8 +1,8 @@
 # Alternative-Payment-Methods-APM-Performance-Analytics
 ![](https://github.com/Imisau/Alternative-Payment-Methods-APM-Performance-Analytics/blob/main/AMP_Thumbnail.png)
-### Emerging Markets | Power BI & Excel | Strategy & Execution
+### Emerging Markets | Power BI, SQL & Pythoon | Strategy & Execution
 
-# 🚀 Project Context
+# 🚀 Indtroduction
 This project simulates the work of an **APM Analyst** supporting the **Head of APMs** with data-driven insights to expand, optimize, and scale Alternative Payment Methods across emerging markets.
 Using:
 -	A **10,000-transaction Excel dataset**
