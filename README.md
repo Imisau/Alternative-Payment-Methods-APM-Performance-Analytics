@@ -10,6 +10,9 @@ Using:
 I evaluated **APM performance, adoption, conversion efficiency, and failure patterns** across multiple countries and payment types, translating analytics into **clear strategic actions.**
 
 ________________________________________
+# Problem Statement
+Merchants in emerging markets rely on Alternative Payment Methods (APMs) to improve payment accessibility, but transaction failures between authorization and completion lead to revenue leakage and reduced customer satisfaction. This project analyzes 10,000 payment transactions to evaluate APM performance, identify high-performing payment methods, measure payment success, uncover conversion bottlenecks, and provide data-driven recommendations to optimize payment performance and maximize revenue.
+
 # 🛠 Tools & Methods
 -	Python: Descriptive statistics, validation, aggregation
 #### - SQL:
